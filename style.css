@@ -1,0 +1,81 @@
+body{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: #FFF58A;
+    background: linear-gradient(#CDC1FF,#FFF58A);
+    box-shadow: 5px 0px 5px 0px #FFEB55;
+    border-radius: 5px 5px 5px 5px;
+}
+.kotakBiotek{
+    width: 40%;
+    margin-left: 50px;
+    padding-top: 50px;
+}
+.kombucha{
+    font-size: 50px;
+}
+.deskBiotek{
+    color: #451952;
+    font-size: 20px;
+}
+section.home{
+    height: 800px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("banner.png")
+}
+section.about img{
+    height: 500px;
+    display: flex;
+    margin-left: 20%;
+}
+.deskabout{
+    width: 35%;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+}
+section.about{
+    height: 800px;
+    background-color: #E0AED0;
+}
+section.fermentation{
+    height: 800px;
+    text-align: center;
+}
+section.biotech{
+    height: 800px;
+    text-align: center;
+}
+section.profile{
+    height: 800px;
+    text-align: center;  
+}
+nav{
+    font-size: 20px;
+    padding: 15px;
+}
+nav a{
+    text-decoration:underline;
+    color: #C738BD;
+    padding: 5px;
+    font-family: 'Aleo';
+    border-radius: 10px 5px 5px 5px;
+    box-shadow: 2px 0px 2px 0px #A367B1;
+    background: #E0AED0;
+    font-size: 15px;
+    text-transform: lowercase;
+}
+h1{
+    color: #451952;
+}
