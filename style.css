@@ -24,8 +24,11 @@ header{
     font-size: 50px;
 }
 .deskBiotek{
-    color: #451952;
+    color: #8f54bf;
     font-size: 20px;
+    background-color: #FFF58A;
+    padding: 5px;
+    border-radius: 15px;
 }
 section.home{
     height: 800px;
@@ -38,20 +41,62 @@ section.about img{
     height: 500px;
     display: flex;
     margin-left: 20%;
+    border-radius: 15px;
 }
 .deskabout{
-    width: 35%;
+    width: 80%;
     margin:auto;
     padding: 20px;
     text-align: center;
+    background-color: #FFF58A;
+    border-radius: 10px;
+    border-style: dashed;
 }
 section.about{
     height: 800px;
     background-color: #E0AED0;
+    padding: 20px;
+}
+section.fermentation img{
+    height: 500px;
+    display: inline;
+    border-radius: 15px;
+}
+.deskfermentation{
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF58A;
+    border-radius: 10px;
+    border-style: dashed;
 }
 section.fermentation{
     height: 800px;
     text-align: center;
+    height: 800px;
+    background-color: #94497c;
+    padding: 20px;
+}
+section.biotech img{
+    height: 500px;
+    display: flex;
+    margin-left: 35%;
+    border-radius: 15px;
+}
+.deskbiotech{
+    width: 80%;
+    margin:auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFF58A;
+    border-radius: 10px;
+    border-style: dashed;
+}
+section.biotech{
+    height: 800px;
+    background-color: #E0AED0;
+    padding: 20px;
 }
 section.biotech{
     height: 800px;
@@ -59,7 +104,9 @@ section.biotech{
 }
 section.profile{
     height: 800px;
-    text-align: center;  
+    text-align: center;
+    background-color: #94497c;
+    padding: 20px;
 }
 nav{
     font-size: 20px;
@@ -78,4 +125,29 @@ nav a{
 }
 h1{
     color: #451952;
+}
+.cardprofile{
+    background-color: #FFF58A;
+    padding: 50px;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    border-style: dashed;
+    border-radius: 10px;
+}
+.cardprofile img{
+    width: 100%;
+}
+.medsos{
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    height: 40px;
+    padding-top: 5px;
+}
+.medsos a{
+    text-decoration: none;
+    padding: 10px 10px;
+    font-size: 24px;
 }
