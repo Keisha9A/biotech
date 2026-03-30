@@ -150,4 +150,9 @@ h1{
     text-decoration: none;
     padding: 10px 10px;
     font-size: 24px;
+    color: #A367B1;
+}
+section.profile{
+    height: 800px;
+    padding-top: 50px;
 }
