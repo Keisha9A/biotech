@@ -51,6 +51,7 @@ section.about img{
     background-color: #FFF58A;
     border-radius: 10px;
     border-style: dashed;
+    color: #79388d;
 }
 section.about{
     height: 800px;
@@ -70,6 +71,7 @@ section.fermentation img{
     background-color: #FFF58A;
     border-radius: 10px;
     border-style: dashed;
+    color: #79388d;
 }
 section.fermentation{
     height: 800px;
@@ -92,6 +94,7 @@ section.biotech img{
     background-color: #FFF58A;
     border-radius: 10px;
     border-style: dashed;
+    color: #79388d;
 }
 section.biotech{
     height: 800px;
@@ -134,6 +137,7 @@ h1{
     text-align: center;
     border-style: dashed;
     border-radius: 10px;
+    color: #79388d;
 }
 .cardprofile img{
     width: 100%;
